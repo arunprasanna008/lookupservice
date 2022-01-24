@@ -37,5 +37,5 @@ Web service framework: Flask
 
 # Enhancement Ideas
 - The size of the URL list could grow infinitely, how might you scale this beyond the memory capacity of this VM?
-- The number of requests may exceed the capacity of this VM, how might you solve that? Bonus if you implement this.
+- The number of requests may exceed the capacity of this VM, how might you solve that?
 - What are some strategies you might use to update the service with new URLs? Updates may be as much as 5 thousand URLs a day with updates arriving every 10 minutes.

@@ -34,6 +34,10 @@ Web service framework: Flask
 13. /urlinfo/1/{host:port}/{uri} will return reputation of host:port/uri
 14. output should be json
 
+# Test
+
+1. Run test_lookupservice.py
+
 
 # Enhancement Ideas
 - The size of the URL list could grow infinitely, how might you scale this beyond the memory capacity of this VM?

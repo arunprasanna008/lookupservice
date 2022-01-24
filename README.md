@@ -41,5 +41,8 @@ Web service framework: Flask
 
 # Enhancement Ideas
 - The size of the URL list could grow infinitely, how might you scale this beyond the memory capacity of this VM?
+-- We could move to a self scalable database such as DynamoDB provided by Amazon Web Services
+
 - The number of requests may exceed the capacity of this VM, how might you solve that?
+-- Increasing number of requests may increase the 
 - What are some strategies you might use to update the service with new URLs? Updates may be as much as 5 thousand URLs a day with updates arriving every 10 minutes.

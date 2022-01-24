@@ -19,17 +19,17 @@ Database: sqllite
 Web service framework: Flask
 
 
-- git clone this repo
-- pyvenv opendns-exercise
-- cd opendns-exercise
-- source bin/activate
-- pip install requirements.txt
-- Setup the database (in venv dir)
-- sqlite3 malware.db
-- .mode csv malware
-- .import malware.csv malware
-- Run main.py
-- Connect to localhost:5000 via browser
-- /urlinfo/1 will return full list of urls in database
-- /urlinfo/1/{host:port}/{uri} will return reputation of host:port/uri
-- output should be json
+1. git clone this repo
+2. pyvenv opendns-exercise
+3. cd opendns-exercise
+4. source bin/activate
+5. pip install requirements.txt
+6. Setup the database (in venv dir)
+7. sqlite3 malware.db
+8. .mode csv malware
+9. .import malware.csv malware
+10. Run main.py
+11. Connect to localhost:5000 via browser
+12. /urlinfo/1 will return full list of urls in database
+13. /urlinfo/1/{host:port}/{uri} will return reputation of host:port/uri
+14. output should be json

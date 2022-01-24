@@ -16,7 +16,6 @@ from your service.
 
 # Setup
 Database: sqllite
-
 Web service framework: Flask
 
 
@@ -34,3 +33,8 @@ Web service framework: Flask
 12. /urlinfo/1 will return full list of urls in database
 13. /urlinfo/1/{host:port}/{uri} will return reputation of host:port/uri
 14. output should be json
+
+
+● The size of the URL list could grow infinitely, how might you scale this beyond the memory capacity of this VM?
+● The number of requests may exceed the capacity of this VM, how might you solve that? Bonus if you implement this.
+● What are some strategies you might use to update the service with new URLs? Updates may be as much as 5 thousand URLs a day with updates arriving every 10 minutes.

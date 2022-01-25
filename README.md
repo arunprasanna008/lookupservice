@@ -49,3 +49,6 @@ Web service framework: Flask
 - **What are some strategies you might use to update the service with new URLs? Updates may be as much as 5 thousand URLs a day with updates arriving every 10 minutes.**
     -- Multiple read-only servers: The system works by having a single leader who accepts data manipulation requests (INSERT/UPDATE) and numerous instances which read activity log to replicate what the leader is doing.
     -- Sharding database: Data sharding is splitting the dataset between different servers based on the hash key
+    
+- **Containerize the application and orchestrate**
+    -- We can containerize the application along with its dependencies using platform as a service such as Docker. This helps to horizontally scale the application as demand grows. 

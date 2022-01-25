@@ -14,6 +14,12 @@ The caller wants to know if it is safe to access that URL or not. As the impleme
 format and structure. These lookups are blocking users from accessing the URL until the caller receives a response
 from your service.
 
+# Technologies considered for the application
+- Programming Language  : Python
+- Web Framework         : Flask
+- Database Choice       : SQLLite, Comma Separated Values
+- Platform as a service : Docker
+ 
 # Setup
 Database: sqllite
 Web service framework: Flask
